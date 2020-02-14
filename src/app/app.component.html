@@ -1,5 +1,37 @@
 <!-- Start your project here-->
-<div style="height: 100vh">
+<div fxLayout="column" fxLayoutAlign="start stretch">
+  <div>
+    <app-navbar></app-navbar>
+  </div>
+
+  <div class="itens" fxLayout="column" fxLayoutAlign="start end" >
+    <app-sobre></app-sobre>
+    <app-experiencia></app-experiencia>
+    <app-educacao></app-educacao>
+    <app-habilidades></app-habilidades>
+    <app-interesses></app-interesses>
+    <app-portfolio></app-portfolio>
+    <app-certificacoes></app-certificacoes>
+  </div>
+
+  <div>
+    <app-footer></app-footer>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div style="height: 100vh">
   <div class="flex-center flex-column">
     <h1 class="animated fadeIn mb-4">Material Design for Bootstrap (Angular)</h1>
 
@@ -8,5 +40,6 @@
 
     <p class="animated fadeIn text-muted">MDB Team</p>
   </div>
-</div>
+</div> -->
+
 <!-- /Start your project here-->
